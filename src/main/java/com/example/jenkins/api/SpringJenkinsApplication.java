@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringJenkinsApplication {
-	
+
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
-	
+
 	@PostConstruct
 	public void init() {
 		logger.info("Application Started...");
